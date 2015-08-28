@@ -1,0 +1,83 @@
+.layout {
+	width: 500px;
+	height: auto;
+	margin: 15px;
+}
+
+.layout p {
+	margin: 0;
+}
+
+.form-addProduct {
+	position: relative;
+	height: 50px;
+	margin: 0;
+}
+
+.product {
+	float: left;
+    margin-right: 10px;
+}
+
+.price {
+	float: left;
+    margin-right: 10px;
+}
+
+.line {
+	border-bottom: 2px solid black;
+	margin-top: 30px;
+}
+
+.btn-add {
+	position: absolute;
+	bottom: 0;
+}
+
+#input-product {
+	width: 160px;
+}
+
+#input-price {
+	width: 80px;
+}
+
+#input-discount {
+	width: 25px;
+	margin: 0 5px;
+}
+
+.btn-discount {
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.table-shoppingCart {
+	width: 100%;
+	border: 1px solid black; 
+	margin-bottom: 15px;
+}
+
+thead {
+	background-color: #CCD1D9;
+}
+
+th {
+	font-weight: normal;
+	padding: 10px 15px;
+	text-align: left;
+	border: 1px solid black;
+}
+
+td {
+	border: 1px solid black;
+  	padding: 10px 15px;
+}
+
+tr:nth-child(even) {
+  	background: #E6E9ED;
+}
+
+#th-product {
+	width: 40%;
+}
