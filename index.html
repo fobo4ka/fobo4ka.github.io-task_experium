@@ -57,9 +57,9 @@
 				</table>
 				<div class="discount">
 					<span>Применить скидку</span>
-					<input id="input-discount" type="text" ng-model="discount" placeholder=0>
+					<input id="input-discount" type="text" ng-model="discount" placeholder="0" ng-disabled="discountApplied">
 					<span>рублей</span>
-					<button class="btn btn-discount" ng-click="addDiscount()">Применить</button>
+					<button class="btn btn-discount" ng-click="addDiscount()" ng-disabled="discountApplied">Применить</button>
 				</div>
 			</div>
 			<p ng-show="emptyCart">Корзина пуста.</p>
