@@ -1,3 +1,3 @@
 # task_experium
 
-Тестовое задание на angular js
+http://fobo4ka.github.io/task_experium/
